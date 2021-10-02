@@ -1,0 +1,5 @@
+remove references to versions in JS files
+add versions to requirements.txt
+handle ws close
+todo console command input validation
+use binary instead of json

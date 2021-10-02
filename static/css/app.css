@@ -1,0 +1,40 @@
+@import url("jquery-ui.css");
+@import url("xterm.min.css");
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/RobotoMono-VariableFont_wght.ttf')  format('truetype');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.window {
+    width: 649px;
+    background-color: #f1f1f1;
+    position: absolute;
+}
+
+.window .header {
+    width: 649px;
+    height: 50px;
+    background-color: #a7a7a7;
+    text-align: center;
+    line-height: 50px;
+    cursor: move;
+    font-family: 'RobotoMono';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.window .content {
+    padding: 0;
+}
+
+#dockerwm-container-template {
+    display: none;
+}
