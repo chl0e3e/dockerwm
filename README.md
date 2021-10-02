@@ -1,6 +1,6 @@
 # dockerwm
 
-![example](Capture.png)
+![example](Capture.PNG)
 
 This project is in alpha status. It is a proof-of-concept for managing Docker containers and images in the browser. It consists of a server, which interfaces with the Docker engine API and reports back to the browser using a WebSocket.
 
