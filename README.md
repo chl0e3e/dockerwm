@@ -8,6 +8,6 @@ Functionality in the future can be extended to multiple Docker instances, adjust
 
 ## Instructions
 
-1. `Setup Docker`
+1. Setup Docker
 2. `pip3 install -r requirements.txt`
 3. `python3 dockerwm.py`
